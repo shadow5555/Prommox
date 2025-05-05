@@ -1,0 +1,49 @@
+Cloud init settings for each vm 
+
+username: use unbuntu/root ONLY 
+
+Password: enter pw here 
+
+Network settings  make sure each vm has a static ip address assignment  
+
+Ssh key : enter key from proxmox host 
+
+Picture 
+
+Picture 
+
+ 
+
+Under vm options 
+
+Enable qemu-guest agent 
+
+Enable start at bootup 
+
+ 
+
+
+
+ 
+
+NOTE if this is a worker node change following settings 
+
+ram settings from 8gigs to 128gigs 
+
+hdd from 80gigs to 200gigs 
+
+ 
+
+Master node vm hardware settings 
+
+Picture 
+
+ 
+
+Worker node vm settings 
+
+Picture 
+
+ 
+
+ 
