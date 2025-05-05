@@ -1,0 +1,53 @@
+NODE 1  (Atlas) 
+
+4x 1tb osd array 
+
+Proxmox Storage Name Ceph-Fast 
+
+vms 
+
+Master 1 control plane  8 core /16gig ram/80gb hdd static ip (192.168.2.x) 
+
+Worker1 worker node 8 core 128gigs ram 200gb hdd static ip (192.168.2.x) 
+
+ 
+
+Node 2 (Goliath) 
+
+4x 1tb osd array 
+
+Proxmox Storage Name Ceph-Fast 
+
+vms 
+
+Master 2 control plane  8 core /16gig ram/80gb hdd   static ip (192.168.2.x) 
+
+Worker2 worker node 8 core 128gigs ram 200gb  hdd static ip (192.168.2.x) 
+
+ 
+
+Node 3 (Zeus) 
+
+4x 1tb osd array 
+
+Proxmox Storage Name Ceph-Fast 
+
+Vms 
+
+Master3 control plane 3  8 core /16gig ram/80gb hdd  static ip (192.168.2.x) 
+
+Worker3 worker node  8 core 128gigs ram 200gb   hdd static ip (192.168.2.x) 
+
+ 
+
+Node 4 (Titan) 
+
+4x 1tb osd array 
+
+Proxmox Storage Name Ceph-Fast 
+
+ Vms 
+
+Master4 control plane4 8 core /16gig ram/80gb hdd static ip (192.168.2.x) 
+
+Worker4 worker node  8 core 128gigs ram 200gb hdd static ip (192.168.2.x 
